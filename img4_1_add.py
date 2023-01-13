@@ -17,7 +17,7 @@ for i in range(img.shape[0]):
             elif np.random.rand()<0.01:
                 img[i,j,k]=255
 #Convert array to image
-img = Image.fromarray(img)
+img = Image.fromarray(img) 
 img.show()
 #Save the image
 img.save("img4_1_add.png")
